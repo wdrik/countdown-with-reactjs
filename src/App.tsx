@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const COUNTDOWN_INITIAL_TIME_IN_SECONDS = 25 * 60
+const COUNTDOWN_INITIAL_TIME_IN_SECONDS = 25 * 60 // 25 minutes
 
 function App() {
   const [secondsAmount, setSecondsAmount] = useState(COUNTDOWN_INITIAL_TIME_IN_SECONDS)
